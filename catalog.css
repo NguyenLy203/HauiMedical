@@ -1,0 +1,86 @@
+.items-catalog {
+  margin: 50px 0;
+  display: flex;
+}
+.items-catalog h1 {
+  font-size: 18px;
+  color: #47a0e4;
+  font-weight: 600;
+  border-bottom: solid thin #e1e1e1;
+  padding-bottom: 5px;
+}
+.items-catalog .left-catalog {
+  width: 25%;
+  padding: 0 20px;
+}
+.items-catalog .left-catalog .search-options {
+  color: #2c2c2c;
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 700;
+}
+.items-catalog .left-catalog #select-price {
+  flex-wrap: wrap;
+}
+.items-catalog .left-catalog #select-price .select-price-range {
+  margin: 10px 10px;
+  word-wrap: break-word;
+  border: 1px solid black;
+}
+.items-catalog .right-catalog {
+  width: 75%;
+  padding: 0 20px;
+}
+.items-catalog .right-catalog #display-product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.items-catalog .right-catalog #display-product .product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.items-catalog .right-catalog #display-product .product-list .product_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  text-align: center;
+  margin: 5px 5px;
+}
+.items-catalog .right-catalog #display-product .product-list .product_box .special_price {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.items-catalog .right-catalog #display-product .product-list .product_box .special_price:hover .option {
+  display: flex;
+}
+.items-catalog .right-catalog #display-product .product-list .product_box .special_price img {
+  width: 180px;
+  position: relative;
+  z-index: -5;
+}
+.items-catalog .right-catalog #display-product .product-list .product_box .special_price .option {
+  display: none;
+  justify-content: space-around;
+  width: 220px;
+  position: absolute;
+  z-index: 2;
+}
+.items-catalog .right-catalog #display-product .product-list .product_box .special_price .option button {
+  height: 40px;
+  width: 90px;
+}
+.items-catalog .right-catalog #display-product .product-list .product_box .price {
+  color: #47a0e4;
+  font-weight: bold;
+}
+.items-catalog .right-catalog #display-product .product-list .product_box .text_line a {
+  color: black;
+  text-decoration: none;
+  text-overflow: inherit;
+}
+
+/*# sourceMappingURL=catalog.css.map */

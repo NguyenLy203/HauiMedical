@@ -1,0 +1,76 @@
+.loginpage {
+    display: flex;
+    margin-top: 50px;
+    
+    h2{
+        margin-bottom: 30px;
+    }
+  .information {
+    .register{
+        display: flex;
+        width: 100%;
+    }
+    width: 50%;
+    button{
+      margin-top: 20px;
+      border: 1px #ebebeb solid;
+      background: #47a0e4;
+      color: #fff;
+      padding: 10px;
+    }
+    form {
+      margin-top: 20px;
+      padding-left: 20px;
+      h4 {
+        margin: 10px 0;
+      }
+      input {
+        border: 1px solid #f0f0f0;
+        font-size: 18px;
+        padding: 10px;
+        width: 90%;
+        margin-top: 5px;
+        outline: none;
+        height: 45px;
+        background: #fff;
+      }
+      a {
+        color: #000;
+        &:first-of-type {
+          margin-top: 20px;
+          border: 1px #ebebeb solid;
+          background: #47a0e4;
+          color: #fff;
+          padding: 10px;
+        }
+      }
+      
+    }
+  }
+  .noaccount {
+    p{
+        margin-bottom: 30px;
+    }
+    a {
+        margin-top: 20px;
+          border: 1px #ebebeb solid;
+          background: #47a0e4;
+          color: #fff;
+          padding: 10px;
+    }
+  }
+}
+
+.change-page{
+  display: flex;
+  flex-direction: column;
+
+  a{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px #ebebeb solid;
+    background: #47a0e4;
+    color: #fff;
+    padding: 10px;
+  }
+}

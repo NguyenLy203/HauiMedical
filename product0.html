@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Quầy thuốc Pharmacity</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js"></script>
+    <script src="product.js"></script>
+    <script src="account.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header_content">
+                <a href="index.html"><img src="img/logo.png"></a>
+                <div class="support_search">
+                    <div class="support">
+                        <h5>Tư vấn bán hàng: </h5><span> <a href="tel:0945485187">0945485187</a><a
+                                href="tel:0945485187">-0945485187</a></span>&nbsp;&nbsp;&nbsp;
+                        <h5>Hỗ trợ kĩ thuật </h5><span> <a href="tel:0965832437">0965832437</a></span>
+                    </div>
+                    <div class="searchbar">
+                        <div class="search_box">
+                            <input id="search_box" type="text" placeholder="Nhập từ khóa cần tìm" onchange="Search_Output()">
+                            <span id="search_list">                 
+                            </span>
+                        </div>                                            
+                        <input class="searchbutton" type="submit" value="Tìm kiếm"> 
+                    </div>
+                </div>
+                <div class="personal_use">
+                    <div class="authentication">
+                        <div class="login">
+                            <p id="test"></p>
+                            <script>
+                                Account_status();
+                            </script>
+                        </div>
+                    </div>
+                    <div href="" class="cart">
+                        <img src="img/shopping-cart.png">
+                        Giỏ hàng
+                        <div class="minicartmenu">
+                            <ul class="cart-list">
+                                <span id="product_cart">
+                                </span>
+                                <script>
+                                    document.getElementById("product_cart").innerHTML = Cart_Output();
+                                </script>
+                            </ul>
+                            <div class="cart-total">
+                                <p>Tổng tiền thanh toán:</p>
+                                <p class="money-count">
+                                </p>
+                                <button>Thanh Toán</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="container">
+            <ul class="navbar">
+                <li><a href="items.html">DANH MỤC SẢN PHẨM</a></li>
+                <li><a href="items.html">SẢN PHẨM</a></li>
+                <li><a href="items.html">CHĂM SÓC CÁ NHÂN</a></li>
+                <li><a href="items.html">MẸ VÀ BÉ</a></li>
+                <li><a href="items.html">DỊCH VỤ</a></li>
+                <li><a href="items.html">PHAMARCITY</a></li>
+            </ul>
+            <div class="social">
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------CONTENT--------------------->
+    <div class="container">
+        <span id="product-infor">
+
+        </span>
+        <script>
+            document.getElementById("product-infor").innerHTML = product_infor_Output(product0, 0);
+        </script>
+
+    </div>
+
+    <!--------------------FOOTER--------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <div class="footer_content_type1">
+                    <h4><span class="big_dot"></span>ĐỊA CHỈ LIÊN HỆ</h4>
+                    <p><span style="color:orange; font-weight:bold;">WWW.quaythuocpharmacity.Com</span></p>
+                    <p><span class="bold">Địa chỉ:</span> Số 20, Ngách 1, Ngõ 46 Trần Quốc Hoàn - Cầu Giấy - Hà
+                        Nội</p>
+                    <p class="bold">Hotline:<a href="">094.548.5187</a></p>
+                    <p class="bold">Online:<a href="">094.548.5187</a></p>
+                    <p><span class="bold">Hỗ trợ kỹ thuật:</span><a href="">0965832437</a></p>
+                    <p><span class="bold">Email:</span><a href="">pharmacity@gmail.Com</a></p>
+                    <p><span class="bold">Thời gian làm việc: </span>(Tất cả các ngày trong tuần trừ ngày lễ)</p>
+                    <p>Sáng: 8h - 12h</p>
+                    <p>Chiều: 14h00 - 21h00</p>
+
+                </div>
+
+                <div class="footer_content_type2">
+                    <h4><span class="big_dot"></span>HỖ TRỢ</h4>
+                    <p><a href="">Giỏ hàng</a></p>
+                    <p><a href="">Chính sách vận chuyển</a></p>
+                    <p><a href="">Chính sách thanh toán</a></p>
+                    <p><a href="">Bản đồ</a></p>
+                    <p><a href="">Chính sách bảo hành - đổi trả</a></p>
+                </div>
+
+
+                <div class="footer_content_type2">
+                    <h4><span class="big_dot"></span>LIÊN KẾT</h4>
+                    <p><a href="">Facebook</a></p>
+                    <p><a href="">Youtobe</a></p>
+                    <p><a href="">Google +</a></p>
+                    <p><a href="">Bản đồ</a></p>
+                </div>
+
+
+                <div class="footer_content_type1">
+                    <h4><span class="big_dot"></span>TÀI KHOẢN NGÂN HÀNG</h4>
+                    <p class="bold"><span style="color:#2ecc71; font-size: 24px;">Vietcombank:</span><span
+                            style="color:#47a0e4; font-size: 18px;">9989992470</span></p>
+                    <p>Chủ TK: <span class="bold">NGUYEN DANH QUAN</span></p>
+                    <p>Chi Nhánh: Hà Nội</p>
+                    <p class="bold"><span style="color:#c0392b; font-size: 24px">Techcombank:</span><span
+                            style="color:#47a0e4; font-size: 18px;">8023998999</span></p>
+                    <p>Chủ TK: <span class="bold">NGUYEN DANH QUAN</span></p>
+                    <p>Chi Nhánh: Hà Nội</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

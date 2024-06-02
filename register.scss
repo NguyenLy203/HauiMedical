@@ -1,0 +1,13 @@
+.change-page{
+    display: flex;
+    flex-direction: column;
+  
+    a{
+      text-align: center;
+      margin-top: 20px;
+      border: 1px #ebebeb solid;
+      background: #47a0e4;
+      color: #fff;
+      padding: 10px;
+    }
+  }

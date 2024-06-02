@@ -1,0 +1,73 @@
+.loginpage {
+  display: flex;
+  margin-top: 50px;
+}
+.loginpage h2 {
+  margin-bottom: 30px;
+}
+.loginpage .information {
+  width: 50%;
+}
+.loginpage .information .register {
+  display: flex;
+  width: 100%;
+}
+.loginpage .information button {
+  margin-top: 20px;
+  border: 1px #ebebeb solid;
+  background: #47a0e4;
+  color: #fff;
+  padding: 10px;
+}
+.loginpage .information form {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.loginpage .information form h4 {
+  margin: 10px 0;
+}
+.loginpage .information form input {
+  border: 1px solid #f0f0f0;
+  font-size: 18px;
+  padding: 10px;
+  width: 90%;
+  margin-top: 5px;
+  outline: none;
+  height: 45px;
+  background: #fff;
+}
+.loginpage .information form a {
+  color: #000;
+}
+.loginpage .information form a:first-of-type {
+  margin-top: 20px;
+  border: 1px #ebebeb solid;
+  background: #47a0e4;
+  color: #fff;
+  padding: 10px;
+}
+.loginpage .noaccount p {
+  margin-bottom: 30px;
+}
+.loginpage .noaccount a {
+  margin-top: 20px;
+  border: 1px #ebebeb solid;
+  background: #47a0e4;
+  color: #fff;
+  padding: 10px;
+}
+
+.change-page {
+  display: flex;
+  flex-direction: column;
+}
+.change-page a {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px #ebebeb solid;
+  background: #47a0e4;
+  color: #fff;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=login.css.map */
